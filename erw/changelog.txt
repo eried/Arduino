@@ -1,0 +1,48 @@
+[i]* 1.0.2 20121106:[/i] Fully updated to official 1.0.2 version (but keeping all the awesomeness, new JDK, new WinAVR/avrdude, etc). Some workarounds for Leonardo board in the AvrDude Wrapper. Setting to revert the function of Upload button to Upload and open Monitor. Board.txt file was missing some SRAM sizes. Previous setup (if something does not work properly):  https://github.com/downloads/eried/Arduino/setup_Arduino_ERW_1.0.1i_20121027.zip
+
+[i]* 1.0.1i 20121027:[/i] Fix for earlier package (was not compiling all the libraries properly). Default font "Consolas" is now included for Windows XP users in the Java package (not installed to the system)
+
+* 1.0.1i 20121020: Little fix for the first startup in a new installation (Environment variable).
+
+
+
+* 1.0.1i 20121019: Undo buffer is almost endless (10000 items per sketch). Updated the font to "Consolas" (Updated preferences file to override the old font, so you will need to set the arduino folder again if it was custom).
+
+
+
+* 1.0.1h 20121013: Undo/Redo now moves the caret to the correct position. Scroll speed when selecting text is now controlled by a linear acceleration, cleaning some files in the pde.jar file.
+
+
+
+* 1.0.1h 20121002: Key combination for Upload and Open Serial monitor is Shift+Alt+M now.
+
+
+
+* 1.0.1h 20121001: Fix for earlier package.
+
+
+
+* 1.0.1h 20120929: New options to copy the hex file path and open the compilation folder. Menus now support scrolling when they don't fit in the screen. AvrDude Wrapper now acts as a bypass if no COM port specified. Key combination for upload and open serial monitor.
+
+
+
+* 1.0.1g 20120924: Find and replace dialog now supports Searching all opened tabs, Serial Monitor button now can schedule the opening of the monitor when the upload completes, when loading or starting a sketch the IDE finds the end of the Setup function to place the cursor, some fixes to the Next Tab and Prev Tab menu items. If boards.txt does not contain the ram size for the selected board, user will see a warning (no default values now).
+
+* 1.0.1f 20120912: IDE and AvrDude now supports the Atmega328 (without a P) thanks to forum user NiñoScript. Reference now does not require word selection, it auto-finds the most proper word (by caret or selection), copy/cut now selects the whole line if nothing is selected
+
+
+* 1.0.1e 20120911: New features in Serial Monitor, Now IDE language is english by default to avoid language bugs in serial monitor and other things.  
+
+
+* 1.0.1d 20120909: More changes in library manager, detection of folder changes is now better (new elements highlighted) and there is a way to install libraries from ZIP or folders and a way to remove them (press DEL), Small fix in DeviceFixer.exe (to hide a the console when you press Fix in the WinAVR wrapper), small help hints in some dialogs, small changes on the directories inside the package.
+
+
+* 1.0.1c 20120902: Small changes in library manager, Fixed WinAVR (was not working in previous version due a problem with Environment variables), Changes to driver installer (updated for x86 and now scans for hardware at the end of the installation), small changes on the directories inside the package.
+
+* 1.0.1b 20120830: Few fixes in library manager (libraries added in runtime appear unchecked), new IDE menu for upload and show Serial Monitor, new feature to estimate SRAM usage to help users with future problems on runtime, new font and some changes in the default settings, WinAVR (avrdude) updated to version 20100110 (removed AVR32 extensions), fixed permission bug in AvrDude Wrapper, Console is clear when COM port is not the correct one, smaller filesize.
+
+
+* 1.0.1a 20120823: New library manager, new IDE options (restored Verbose compilation holding Shift key and added Upload and show Serial Monitor automatically holding Control when clicking Upload), small changes in the default template, smaller filesize.
+
+
+* 1.0.1 20120813: Initial release
